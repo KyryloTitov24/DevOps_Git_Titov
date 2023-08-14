@@ -1,0 +1,15 @@
+name: My-First-GitHubActions
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  my_testing:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Print Kyrylo Titov
+      run: echo "Kyrylo Titov"
+      
